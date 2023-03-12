@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
+  background: url(../img/ekzoplaneta_atmosfera_oblaka_101205_1920x1080.jpg)no-repeat center center fixed;
   color: #212121;
   line-height: 1.5;
 }
@@ -17,4 +18,32 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+  background-color:dimgrey;
+  color: #fafafa;
+  
+  margin-top: 40px;
+border-radius: 40px;
+}
+.country-list,.country-box-list{
+margin: 0 auto;
+list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    color:#fafafa;
+    font-size: 10px;
+    padding-left: 0;
+    
+background-color:#e9f1f863;
 }
