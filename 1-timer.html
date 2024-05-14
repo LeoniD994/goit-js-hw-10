@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
+        
+    <title>timer</title>
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/1-timer-3f1f2a91.css">
   </head>
   <body>
-    <section>
+    <section class="main__timer">
       <a href="./index.html">Go to home</a>
 
       <h1>Welcome to timer</h1>
 
       <input type="text" id="datetime-picker" />
-      <button type="button" data-start>Start</button>
+      <button type="button" class="input__btn" data-start>Start</button>
       
       <div class="timer">
         <div class="field">
