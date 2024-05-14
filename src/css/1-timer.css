@@ -1,0 +1,34 @@
+
+.timer {
+    border: none;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    width: 350px;
+
+}
+
+.field {
+    border: none;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    background-color: rgba(27, 138, 12, 0.849);
+    color: #fafafa;
+}
+
+input {
+    padding: 7px;
+    width: 250px;
+}
+
+.input__btn {
+    text-decoration: none;
+    font-weight: normal;
+    border: none;
+    padding: 6px 10px;
+    font-size: 17px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: rgb(18, 65, 218);
+}
