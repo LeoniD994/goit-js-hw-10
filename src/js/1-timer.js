@@ -15,7 +15,7 @@ const minutes = document.querySelector('span[data-minutes]');
 const seconds = document.querySelector('span[data-seconds]');
 
 
-// btnStart.disablet = true;
+
 
 let countdown;
 const DELAY = 1000;
