@@ -1,2 +1,2 @@
-import"./assets/modulepreload-polyfill-3cfb730f.js";console.log("snackbar");
+import"./assets/modulepreload-polyfill-3cfb730f.js";import{i as s}from"./assets/vendor-77e16229.js";const a=document.querySelector(".form");a.addEventListener("submit",m);function m(o){o.preventDefault();const t=document.querySelector('input[name="delay"]'),i=document.querySelectorAll('input[name="state"]'),n=parseInt(t.value),r=c(i);new Promise((e,u)=>{setTimeout(()=>{r==="fulfilled"?e(n):u(n)},n)}).then(e=>{s.show({message:`✅ Fulfilled promise in ${e}ms`,position:"topCenter"})},e=>{s.show({message:`❌ Rejected promise in ${e}ms`,position:"topCenter"})})}function c(o){for(const t of o)if(t.checked)return t.value}
 //# sourceMappingURL=commonHelpers2.js.map
